@@ -116,6 +116,7 @@ git merge origin/main  # 合并到当前分支
 ```bash
 git checkout develop        # 切换到 develop 分支
 git checkout -b feature     # 创建并切换到新分支 feature
+git checkout 01d5188        # 切换到 01d5188 分支
 ```
 ### rm
 ```bash
@@ -125,4 +126,38 @@ git rm -r --cached .idea/
 git add .gitignore
 git commit -m "Add .idea/ to .gitignore"
 git push origin main
+```
+### merge
+```bash
+# 合并（推荐 --no-ff 保持历史清晰）
+git merge --no-ff feature/dibo_init
+# 先理解 fast-forward（快进合并，默认行为）
+git merge feature/dibo_init
+
+```
+### push
+```bash
+git push -u origin feature/dibo_init   
+git push origin feature/dibo_init
+# -u（--set-upstream）
+#推送 + 设置 upstream（把本地分支和远程分支关联起来）
+# git branch --set-upstream-to=origin/feature/dibo_init feature/dibo_init
+# 相当于把本地分支的“上游”设置为远程的对应分支
+# 设置完成后，Git 就“记住”了这个分支应该推送到哪里、拉取自哪里
+
+# 第一次推送新分支时：永远用 -u 
+
+#  如何查看当前分支是否设置了 upstream？bash
+git branch -vv
+
+git push origin feature/dibo_init #：只推一次，不建立长期关系  
+git push -u origin feature/dibo_init #：推 + 建立长期跟踪关系，让后续 push/pull 变得更省事
+```
+
+
+
+# docs
+```
+https://nvie.com/posts/a-successful-git-branching-model/
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
 ```
