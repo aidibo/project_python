@@ -122,6 +122,11 @@ git checkout 01d5188        # 切换到 01d5188 分支
 ```bash
 # 从 Git 中删除但保留本地文件
 git rm -r --cached .idea/
+# 2. 删除文件并记录到暂存区
+git rm path/to/your/file.txt
+# 或者删除文件夹
+git rm -r path/to/folder/
+
 # 提交更改
 git add .gitignore
 git commit -m "Add .idea/ to .gitignore"
