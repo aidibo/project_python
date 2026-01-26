@@ -1,3 +1,7 @@
+# ignore env
+packages/.env
+packages/.env.*
+
 # PyCharm
 .idea/
 *.iml
