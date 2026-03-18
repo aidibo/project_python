@@ -34,3 +34,12 @@ https://drive.google.com/drive/folders/19WjApzrBIlKdpoBZ1M_QEHkIuK-jmx6B
 https://colab.research.google.com/drive/1n5H0tjTr1KCHieGO9PCilfyHkjBPG0AC#scrollTo=SD0gQMIQrKgU
 https://colab.research.google.com/drive/1ZW_cBoF6jVewFAIHsh3ZJHJUTt40w4La
 https://colab.research.google.com/drive/1Bg9PVMxjLvGH-DRyIcCIIgL1Xbb4DAA2#scrollTo=qD4nsyVGdHid
+
+
+# socket
+https://github.com/MattCrook/python_sockets_multi_threading/blob/master/README.md
+https://realpython.com/python-sockets/
+
+# qwen3-VL
+https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct
+https://claude.ai/chat/38acd073-04b1-47d7-a899-fc0250dcadbf
