@@ -9,6 +9,15 @@
 
 # https://colab.research.google.com/drive/1Auw5ey-WHa9NRx1EFsridHjnDgoKaw0C#scrollTo=JE3wDApreD5Y
 
+'''
+ViT-L/14@336px CLIP 是 OpenAI 开发的一个视觉-语言预训练模型的特定配置。让我解释一下这个名称中各部分的含义和作用：
+名称解析：
+
+ViT-L：Vision Transformer - Large，表示使用大型视觉Transformer架构
+14：patch size为14×14像素，即将输入图像分割成14×14的小块
+336px：输入图像分辨率为336×336像素
+'''
+
 from google.colab import ai
 response = ai.generate_text("What is the capital of France?")
 
