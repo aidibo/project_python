@@ -1,0 +1,20 @@
+[
+  {
+    "file": "test.json",
+    "name": "zhangsan",
+    "full_data": {
+      "name": "zhangsan",
+      "age": 12
+    },
+    "status": "success"
+  },
+  {
+    "file": "test02.json",
+    "name": "zhangsan02",
+    "full_data": {
+      "name": "zhangsan02",
+      "age": 12
+    },
+    "status": "success"
+  }
+]
