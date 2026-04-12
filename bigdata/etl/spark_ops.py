@@ -8,7 +8,7 @@
 # @Version: 1.0.0
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, explode, get_json_object
+#from pyspark.sql.functions import col, explode, get_json_object
 import time
 
 # 初始化Spark会话
